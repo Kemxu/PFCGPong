@@ -8,6 +8,7 @@ public class PaddleP1 : MonoBehaviour {
 		
 	}
 
+	//This will detect the position of the mouse and move the paddle to that position//
 	void Update () {
         float mousePositionBlocks = (Input.mousePosition.y / Screen.width * 14) - 7f;
 
