@@ -8,6 +8,7 @@ public class PaddleP2 : MonoBehaviour {
 		
 	}
 	
+	//This will make the paddle move with the arrow keys//
 	void Update () {
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
