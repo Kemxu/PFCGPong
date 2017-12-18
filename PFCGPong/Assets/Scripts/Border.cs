@@ -26,6 +26,7 @@ public class Border : MonoBehaviour {
 
     }
 
+    //This will find the object called LevelManager//
     void Start()
     {
         Manager = GameObject.FindObjectOfType<LevelManager>();
