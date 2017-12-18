@@ -8,6 +8,7 @@ public class SoundManager : MonoBehaviour {
 
     void Awake()
     {
+	    //if there is music it will stop the looping of music//
         if (musicPlayer != null)
         {
             Destroy(this.gameObject);
